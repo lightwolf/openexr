@@ -21,3 +21,12 @@ missing
 .DS_Store
 *.project
 *.cproject
+# Visual Studio
+*.obj
+*.tlog
+*.log
+*.lastbuildstate
+*.filters
+*.user
+*.idb
+*.pdb
