@@ -8,8 +8,8 @@ ADD_EXECUTABLE ( b44ExpLogTable
 
 TARGET_LINK_LIBRARIES ( b44ExpLogTable
   Half
-  Iex${ILMBASE_LIBSUFFIX}
   IlmThread${ILMBASE_LIBSUFFIX}
+  Iex${ILMBASE_LIBSUFFIX}
   ${PTHREAD_LIB}
 )
 
@@ -25,8 +25,8 @@ ADD_EXECUTABLE ( dwaLookups
 
 TARGET_LINK_LIBRARIES ( dwaLookups
   Half
-  Iex${ILMBASE_LIBSUFFIX}
   IlmThread${ILMBASE_LIBSUFFIX}
+  Iex${ILMBASE_LIBSUFFIX}
   ${PTHREAD_LIB}
 )
 
@@ -217,6 +217,7 @@ INSTALL ( FILES
   ImfRationalAttribute.h
   ImfFramesPerSecond.h
   ImfStandardAttributes.h
+  ImfStdIO.h
   ImfEnvmap.h
   ImfEnvmapAttribute.h
   ImfInt64.h
